@@ -4,6 +4,10 @@
   "description": "A customized version of the original Zenburn theme",
   "version": "0.0.1",
   "publisher": "Chad",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chaddanna/Zenburn-Proper-Theme"
+  },
   "engines": {
     "vscode": "^1.41.0"
   },
