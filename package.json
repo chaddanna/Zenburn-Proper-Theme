@@ -1,0 +1,22 @@
+{
+  "name": "zenburn-proper",
+  "displayName": "Zenburn Proper",
+  "description": "A customized version of the original Zenburn theme",
+  "version": "0.0.1",
+  "publisher": "Chad",
+  "engines": {
+    "vscode": "^1.41.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Zenburn Proper",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Zenburn Proper-color-theme.json"
+      }
+    ]
+  }
+}

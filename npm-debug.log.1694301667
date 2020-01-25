@@ -1,0 +1,73 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/chad.danna/.nvm/versions/node/v10.16.3/bin/node',
+1 verbose cli   '/Users/chad.danna/.nvm/versions/node/v10.16.3/bin/npm',
+1 verbose cli   'show',
+1 verbose cli   'vsce',
+1 verbose cli   'version' ]
+2 info using npm@3.8.9
+3 info using node@v10.16.3
+4 silly mapToRegistry name vsce
+5 silly mapToRegistry using default registry
+6 silly mapToRegistry registry https://registry.npmjs.org/
+7 silly mapToRegistry data Result {
+7 silly mapToRegistry   raw: 'vsce',
+7 silly mapToRegistry   scope: null,
+7 silly mapToRegistry   name: 'vsce',
+7 silly mapToRegistry   rawSpec: '',
+7 silly mapToRegistry   spec: 'latest',
+7 silly mapToRegistry   type: 'tag' }
+8 silly mapToRegistry uri https://registry.npmjs.org/vsce
+9 verbose request uri https://registry.npmjs.org/vsce
+10 verbose request no auth needed
+11 info attempt registry request try #1 at 11:50:11 PM
+12 verbose request using bearer token for auth
+13 verbose request id 7946afcedc976256
+14 verbose etag W/"61440f64273f8dc673dce6763f116c39"
+15 verbose lastModified Mon, 09 Dec 2019 07:36:37 GMT
+16 http request GET https://registry.npmjs.org/vsce
+17 http 304 https://registry.npmjs.org/vsce
+18 verbose headers { date: 'Sat, 25 Jan 2020 06:50:11 GMT',
+18 verbose headers   connection: 'keep-alive',
+18 verbose headers   'set-cookie':
+18 verbose headers    [ '__cfduid=d4d979ea0e6a081e6349bea2833620aee1579935011; expires=Mon, 24-Feb-20 06:50:11 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+18 verbose headers   'cf-ray': '55a84fbb7fc5c7a5-DEN',
+18 verbose headers   'cache-control': 'public, max-age=300',
+18 verbose headers   etag: '"61440f64273f8dc673dce6763f116c39"',
+18 verbose headers   'last-modified': 'Mon, 09 Dec 2019 07:36:37 GMT',
+18 verbose headers   vary: 'Accept-Encoding',
+18 verbose headers   'cf-cache-status': 'EXPIRED',
+18 verbose headers   'expect-ct':
+18 verbose headers    'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+18 verbose headers   server: 'cloudflare' }
+19 silly get cb [ 304,
+19 silly get   { date: 'Sat, 25 Jan 2020 06:50:11 GMT',
+19 silly get     connection: 'keep-alive',
+19 silly get     'set-cookie':
+19 silly get      [ '__cfduid=d4d979ea0e6a081e6349bea2833620aee1579935011; expires=Mon, 24-Feb-20 06:50:11 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+19 silly get     'cf-ray': '55a84fbb7fc5c7a5-DEN',
+19 silly get     'cache-control': 'public, max-age=300',
+19 silly get     etag: '"61440f64273f8dc673dce6763f116c39"',
+19 silly get     'last-modified': 'Mon, 09 Dec 2019 07:36:37 GMT',
+19 silly get     vary: 'Accept-Encoding',
+19 silly get     'cf-cache-status': 'EXPIRED',
+19 silly get     'expect-ct':
+19 silly get      'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+19 silly get     server: 'cloudflare' } ]
+20 verbose etag https://registry.npmjs.org/vsce from cache
+21 verbose get saving vsce to /Users/chad.danna/.npm/registry.npmjs.org/vsce/.cache.json
+22 verbose correctMkdir /Users/chad.danna/.npm correctMkdir not in flight; initializing
+23 verbose exit [ 0, true ]
+24 verbose stack Error: write EPIPE
+24 verbose stack     at WriteWrap.afterWrite [as oncomplete] (net.js:788:14)
+25 verbose cwd /Users/chad.danna/zenburn-proper
+26 error Darwin 18.7.0
+27 error argv "/Users/chad.danna/.nvm/versions/node/v10.16.3/bin/node" "/Users/chad.danna/.nvm/versions/node/v10.16.3/bin/npm" "show" "vsce" "version"
+28 error node v10.16.3
+29 error npm  v3.8.9
+30 error code EPIPE
+31 error errno EPIPE
+32 error syscall write
+33 error write EPIPE
+34 error If you need help, you may report this error at:
+34 error     <https://github.com/npm/npm/issues>
+35 verbose exit [ 1, true ]
