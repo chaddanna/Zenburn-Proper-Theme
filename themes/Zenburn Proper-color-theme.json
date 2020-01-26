@@ -15,6 +15,7 @@
     "editorGroupHeader.tabsBackground": "#363636",
     "statusBar.background": "#3F3F3F",
     "statusBar.foreground": "#D3D3C4",
+    "statusBar.debuggingForeground": "#3F3F3F",
     "statusBar.debuggingBackground": "#E8C3A8",
     "statusBar.noFolderForeground": "#3F3F3F",
     "statusBar.noFolderBackground": "#94BFF3",
