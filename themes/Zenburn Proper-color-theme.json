@@ -34,14 +34,14 @@
     "terminal.ansiBlack": "#282D2A",
     "terminal.ansiBlue": "#8CB4E3",
     "terminal.ansiBrightBlack": "#647381",
-    "terminal.ansiBrightBlue": "#91DCDF",
-    "terminal.ansiBrightCyan": "#91DCDF",
+    "terminal.ansiBrightBlue": "#83DADC",
+    "terminal.ansiBrightCyan": "#83DADC",
     "terminal.ansiBrightGreen": "#82BC9D",
     "terminal.ansiBrightMagenta": "#D9A4CB",
     "terminal.ansiBrightRed": "#DCA2A3",
     "terminal.ansiBrightWhite": "#DCDCCB",
     "terminal.ansiBrightYellow": "#DFCF9F",
-    "terminal.ansiCyan": "#91DCDF",
+    "terminal.ansiCyan": "#83DADC",
     "terminal.ansiGreen": "#82BC9D",
     "terminal.ansiMagenta": "#D9A4CB",
     "terminal.ansiRed": "#DCA2A3",
@@ -154,7 +154,7 @@
       "name": "Other Variable, String Link",
       "scope": ["support.other.variable", "string.other.link"],
       "settings": {
-        "foreground": "#f07178"
+        "foreground": "#94BFF3"
       }
     },
     {
@@ -193,7 +193,7 @@
         "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
       ],
       "settings": {
-        "foreground": "#82BC9D"
+        "foreground": "#93BEF2"
       }
     },
     {
@@ -209,7 +209,7 @@
         "support.type.sys-types"
       ],
       "settings": {
-        "foreground": "#F0DFAF"
+        "foreground": "#ECD9A0"
       }
     },
     {
@@ -391,7 +391,7 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#F78C6C"
+        "foreground": "#ECD9A0"
       }
     },
     {
@@ -483,7 +483,7 @@
         "markup.heading.markdown punctuation.definition.heading.markdown"
       ],
       "settings": {
-        "foreground": "#82BC9D"
+        "foreground": "#ECD9A0"
       }
     },
     {
@@ -544,7 +544,7 @@
       "name": "Markdown - Link",
       "scope": ["string.other.link.title.markdown"],
       "settings": {
-        "foreground": "#82BC9D"
+        "foreground": "#94BFF3"
       }
     },
     {
