@@ -6,7 +6,7 @@ A customized Zenburn theme for Visual Studio Code.
 
 [![vscode](https://img.shields.io/badge/vscode-v1.12+-373277.svg?style=for-the-badge)](https://code.visualstudio.com/updates/v1_12)
 
-<img src="https://i.imgur.com/mOHbr3c.jpg" width="680">
+<img src="https://i.imgur.com/bCiRlkF.jpg" width="680">
 
 </div>
 # Installation
