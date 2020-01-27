@@ -89,7 +89,7 @@
       "name": "Keyword, Storage",
       "scope": ["keyword", "storage.type", "storage.modifier"],
       "settings": {
-        "foreground": "#DFBDA3"
+        "foreground": "#D69F7D"
       }
     },
     {
@@ -119,14 +119,7 @@
         "markup.deleted.git_gutter"
       ],
       "settings": {
-        "foreground": "#E2E1D5"
-      }
-    },
-    {
-      "name": "Punctuation",
-      "scope": ["punctuation"],
-      "settings": {
-        "foreground": "#b86568"
+        "foreground": "#92E0E2"
       }
     },
     {
@@ -140,12 +133,12 @@
         "keyword.other.special-method"
       ],
       "settings": {
-        "foreground": "#94BFF3"
+        "foreground": "#83DADC"
       }
     },
     {
       "name": "Block Level Variables",
-      "scope": ["meta.block variable.other", "meta.jsx.children"],
+      "scope": ["meta.block variable.other"],
       "settings": {
         "foreground": "#92E0E2"
       }
@@ -154,7 +147,7 @@
       "name": "Other Variable, String Link",
       "scope": ["support.other.variable", "string.other.link"],
       "settings": {
-        "foreground": "#94BFF3"
+        "foreground": "#B87B7D"
       }
     },
     {
@@ -165,12 +158,17 @@
         "support.constant",
         "constant.character",
         "constant.escape",
-        "variable.parameter",
-        "keyword.other.unit",
-        "keyword.other"
+        "variable.parameter"
       ],
       "settings": {
-        "foreground": "#DCA2A3"
+        "foreground": "#A9DBA8"
+      }
+    },
+    {
+      "name": "Keywords",
+      "scope": ["keyword.other.unit", "keyword.other"],
+      "settings": {
+        "foreground": "#ECD9A0"
       }
     },
     {
@@ -193,7 +191,7 @@
         "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
       ],
       "settings": {
-        "foreground": "#93BEF2"
+        "foreground": "#B87B7D"
       }
     },
     {
@@ -214,7 +212,7 @@
     },
     {
       "name": "Entity Types",
-      "scope": ["support.type"],
+      "scope": ["support.type", "entity.name.type"],
       "settings": {
         "foreground": "#94BFF3"
       }
