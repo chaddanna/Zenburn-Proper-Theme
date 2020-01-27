@@ -20,6 +20,11 @@
         "label": "Zenburn Proper",
         "uiTheme": "vs-dark",
         "path": "./themes/Zenburn Proper-color-theme.json"
+      },
+      {
+        "label": "Zenburn Proper - High Contrast",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Zenburn Proper-High-Contrast-color-theme.json"
       }
     ]
   }
