@@ -126,7 +126,6 @@
       "name": "Function, Special Method",
       "scope": [
         "entity.name.function",
-        "meta.brace.round.js",
         "meta.function-call",
         "variable.function",
         "support.function",
