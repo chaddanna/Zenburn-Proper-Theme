@@ -174,7 +174,7 @@
       "name": "Boolean",
       "scope": ["constant.language.boolean"],
       "settings": {
-        "foreground": "#92E0E2"
+        "foreground": "#8CB4E3"
       }
     },
     {
