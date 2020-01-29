@@ -35,13 +35,13 @@
     "terminal.ansiBlue": "#8CB4E3",
     "terminal.ansiBrightBlack": "#647381",
     "terminal.ansiBrightBlue": "#8CB4E3",
-    "terminal.ansiBrightCyan": "#83DADC",
+    "terminal.ansiBrightCyan": "#92E0E2",
     "terminal.ansiBrightGreen": "#A9DBA8",
     "terminal.ansiBrightMagenta": "#D9A4CB",
     "terminal.ansiBrightRed": "#BE7E80",
     "terminal.ansiBrightWhite": "#DCDCCB",
     "terminal.ansiBrightYellow": "#ECD9A0",
-    "terminal.ansiCyan": "#83DADC",
+    "terminal.ansiCyan": "#92E0E2",
     "terminal.ansiGreen": "#82BC9D",
     "terminal.ansiMagenta": "#D9A4CB",
     "terminal.ansiRed": "#BE7E80",
@@ -132,7 +132,7 @@
         "keyword.other.special-method"
       ],
       "settings": {
-        "foreground": "#83DADC"
+        "foreground": "#92E0E2"
       }
     },
     {
@@ -156,8 +156,7 @@
         "constant.language",
         "support.constant",
         "constant.character",
-        "constant.escape",
-        "variable.parameter"
+        "constant.escape"
       ],
       "settings": {
         "foreground": "#A9DBA8"
@@ -227,7 +226,40 @@
         "source.postcss support.type.property-name"
       ],
       "settings": {
-        "foreground": "#8CB4E3"
+        "foreground": "#D69F7D"
+      }
+    },
+    {
+      "name": "CSS Element and Class Names",
+      "scope": [
+        "entity.other.attribute-name.class.css",
+        "entity.name.tag.css",
+        "entity.other.attribute-name.id.css",
+        "punctuation.definition.entity.css"
+      ],
+      "settings": {
+        "foreground": "#94BFF3"
+      }
+    },
+    {
+      "name": "CSS Property Value",
+      "scope": ["support.constant.property-value.css"],
+      "settings": {
+        "foreground": "#E2E1D5"
+      }
+    },
+    {
+      "name": "CSS Units",
+      "scope": [
+        "keyword.other.unit.px.css",
+        "keyword.other.unit.rem.css",
+        "keyword.other.unit.em.css",
+        "keyword.other.unit.vh.css",
+        "keyword.other.unit.vw.css",
+        "keyword.other.unit.percentage.css"
+      ],
+      "settings": {
+        "foreground": "#A9DBA8"
       }
     },
     {
