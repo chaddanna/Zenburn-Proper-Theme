@@ -3,7 +3,7 @@
   "displayName": "Zenburn Proper",
   "description": "A customized version of the original Zenburn theme",
   "icon": "images/icon-zen.png",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "publisher": "Chad",
   "repository": {
     "type": "git",
