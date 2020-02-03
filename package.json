@@ -2,6 +2,7 @@
   "name": "zenburn-proper",
   "displayName": "Zenburn Proper",
   "description": "A customized version of the original Zenburn theme",
+  "icon": "images/icon-zen.png",
   "version": "1.0.5",
   "publisher": "Chad",
   "repository": {
